@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {toggleDrawer = id; }; 
+            CLASS = MovieDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mCurrentSize = NSTextField; 
+                mDrawer = NSDrawer; 
+                mDuration = NSTextField; 
+                mExportAccessoryView = NSView; 
+                mExportTypePopUpButton = NSPopUpButton; 
+                mMovieView = QTMovieView; 
+                mMovieWindow = NSWindow; 
+                mNormalSize = NSTextField; 
+                mSourceName = NSTextField; 
+                mTimeDisplay = NSTextField; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            CLASS = MyDocumentController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSDocumentController; 
+        }, 
+        {CLASS = QTMovieView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}
